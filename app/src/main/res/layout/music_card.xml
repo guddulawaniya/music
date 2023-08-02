@@ -7,12 +7,12 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
+        android:id="@+id/playsongcard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/white"
         android:elevation="2dp"
@@ -33,6 +33,7 @@
             <ImageView
                 android:id="@+id/songimage"
                 android:layout_width="50dp"
+                android:scaleType="centerCrop"
                 android:layout_marginStart="5dp"
                 android:layout_height="50dp"
                 tools:src="@tools:sample/avatars" />
@@ -52,7 +53,7 @@
                     android:singleLine="true"
                     android:text="Title songs"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/descripation"
